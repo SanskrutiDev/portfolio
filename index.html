@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,158 +9,258 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
 
         }
-        body{
+
+        body {
             background-color: rgb(0, 0, 33);
             color: white;
-            font-family: 'poppins',sans-serif;
+            font-family: 'poppins', sans-serif;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
             height: 80px;
-            background-color:rgb(18, 18, 62);
-            
+            background-color: rgb(18, 18, 62);
+
 
         }
-        nav ul{
+
+        nav ul {
             display: flex;
             justify-content: center;
 
         }
-       
-         nav ul li{
+
+        nav ul li {
             list-style: none;
             margin: 0 23px;
         }
+
         nav ul li a {
             text-decoration: none;
             color: white;
         }
-        nav ul li a:hover{
-           color: rgb(134, 134, 239);
-           font-size: 1.01rem;
+
+        nav ul li a:hover {
+            color: rgb(134, 134, 239);
+            font-size: 1.01rem;
         }
-        .left{
+
+        .left {
             font-size: 1.5rem;
 
         }
-        .firstsection{
+
+        .firstsection {
             display: flex;
             align-items: center;
             justify-content: space-around;
             margin: 130px 0;
-           
+
         }
-        .firstsection > div{
-           width: 30%;
+
+        .firstsection>div {
+            width: 30%;
         }
-        .leftsection{
-           
+
+        .leftsection {
+
             width: 34px;
             font-size: 2rem;
-            
+
         }
-        .rightsection img{
-           
+
+       
+
+        .social {
+            margin: 0 auto;
+            width: auto;
+            text-align: inherit;
+            /* padding: 10px; */
+        }
+        .icon-btn {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 70px;
+  border-radius: 45px;
+  display: inline-block;
+  margin: 4px;
+}
+
+
+.github {
+  color: black;
+ 
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.angellist {
+  color: grey;
+}
+
+.icon-btn:hover {
+  transform: scale(1.10);
+  color: #FFFFFF;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.angellist:hover {
+  background-color: grey;
+}
+
+.github:hover {
+  background-color: black;
+}
+
+
+
+        .leftsection.button {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+
+            padding: 12px;
+            background: rgb(236, 212, 212);
+            color: #671e65;
+            border: 2px solid plum;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+
+        }
+
+        .rightsection img {
+
             width: 80%;
-           
+
         }
-        .purple{
+
+        .purple {
             color: rgb(196, 144, 245);
         }
-        .text-gray{
+
+        .text-gray {
             color: gray;
         }
-        #element{
+
+        #element {
             color: rgb(196, 144, 245);
 
         }
-        .secoundsection{
+
+        .secoundsection {
             max-width: 80vw;
             margin: auto;
             height: 80vh;
         }
-        .secoundsection h1{
+
+        .secoundsection h1 {
             font-size: 1.9rem;
         }
-        .secoundsection .box{
+
+        .secoundsection .box {
             background: white;
             width: 80vw;
             height: 2px;
             margin: 56px 0;
             display: flex;
         }
-        .secoundsection .vertical{
+
+        .secoundsection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
             margin: 0 100px;
         }
-        .image-top{
+
+        .image-top {
             width: 23px;
             position: relative;
             top: -32px;
             left: -9px;
         }
-        .vertical-title{
+
+        .vertical-title {
             position: relative;
             top: 75px;
             width: 150px;
 
         }
-        .vertical-desc{
+
+        .vertical-desc {
             position: relative;
             top: 86px;
             color: grey;
             width: 150px;
             font-size: 9px
-
         }
-        .main hr{
+
+        .main hr {
             border: 0;
             background: rgb(127, 52, 247);
             height: 1.2px;
             width: 55px 84px;
         }
-        footer{
-            background-color:rgb(53, 33, 53);
-            height: 233px;
+
+        footer {
+            background-color: rgb(49, 38, 49);
+
         }
-        .flooter{
+
+        .flooter {
             display: flex;
             padding: 23px 122px;
             justify-content: space-evenly;
         }
-        .flooter ul{
+
+        .flooter ul {
             list-style: none;
         }
-        .flooter > div{
+
+        .flooter>div {
             width: 223px;
         }
-        flooter .footer-rights{
+
+        flooter .footer-rights {
             text-align: center;
+            color: grey;
+            padding: 12px 0;
+
 
         }
-
     </style>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="left">Sanskruti's portfolio</div>
             <div class="right">
                 <ul>
-                  <li> <a href="/">Home</a></li> 
-                   <li><a href="/">About</a></li> 
-                   <li><a href="/">Services</a></li>
-                   <li><a href="/">Projects</a></li>
-                   <li><a href="/">Contact Me</a></li>
+                    <li> <a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -167,11 +268,33 @@
     <main>
         <section class="firstsection">
             <div class="leftsection">
-                Hi,My name is <span class="purple">Sanskruti</span> 
+                Hi,My name is <span class="purple">Sanskruti</span>
                 <div>and i am a passionate</div>
                 <div>Web Developer</div>
                 <span id="element"></span>
-                
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sanskruti-chavan-web-developer" target="_blank">
+                        <button class="icon-btn linkedin">
+                            <i class="fa fa-linkedin"></i>
+                        </button>
+                    </a>
+                    <a href="https://github.com/SanskrutiDev" target="_blank">
+                        <button class="icon-btn github" >
+                           
+                            <i class="fa fa-github"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="button">
+                    <button class="btn">
+                        <a aria-label="Open sanskruti's resume in a new tab" href="Sanskruti_Chavan-1.pdf"
+                            target="_blank" class="waves-effect waves-dark teal-text"><i
+                                class="mdi-file-folder-open small">Download Resume></i></a>
+                    </button>
+
+                </div>
+
             </div>
             <div class="rightsection">
                 <img src="devpng.gif" alt="">
@@ -188,43 +311,49 @@
             <h1>work experience</h1>
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top"src="HTML.png" alt="">
+                    <img class="image-top" src="HTML.png" alt="">
                     <div class="vertical-title">
                         HTML Developer
                         <div>(2021-2024)</div>
-                        
+
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore facilis expedita. Ipsa, temporibus!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+                        facilis expedita. Ipsa, temporibus!
                     </div>
                 </div>
-                
-                    <div class="vertical">
-                        <img class="image-top"src="javapng.jpg" alt="">
-                        <div class="vertical-title">
-                           Java Developer 
-                           <div>(2021-2024)</div>
-                        </div>
-                        <div class="vertical-desc">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore facilis expedita. Ipsa, temporibus!
-                        </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="javapng.jpg" alt="">
+                    <div class="vertical-title">
+                        Java Developer
+                        <div>(2021-2024)</div>
                     </div>
-                   
-                        <div class="vertical">
-                            <img class="image-top"src="webdevloper.jpeg" alt="">
-                            <div class="vertical-title">
-                                web Developer
-                                <div>(2021-2024)</div>
-                               
-                            </div>
-                            <div class="vertical-desc">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore facilis expedita. Ipsa, temporibus!
-                            </div>
-                        </div>
-                       
-                        </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+                        facilis expedita. Ipsa, temporibus!
                     </div>
-               
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="webdevloper.jpeg" alt="">
+                    <div class="vertical-title">
+                        web Developer
+                        <div>(2021-2024)</div>
+
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+                        facilis expedita. Ipsa, temporibus!
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
 
             </div>
 
@@ -234,7 +363,7 @@
     <footer>
         <div class="footer">
             <div class="footer-frist">
-                <h3>Sanskruti's Developer  portfolio</h3>
+                <h3>Sanskruti's Developer portfolio</h3>
             </div>
             <div class="footer-secound">
                 <ul>
@@ -242,7 +371,7 @@
                     <li>About</li>
                     <li>services</li>
                     <li>contact</li>
-                    
+
                 </ul>
 
             </div>
@@ -252,7 +381,7 @@
                     <li>About</li>
                     <li>services</li>
                     <li>contact</li>
-                    
+
                 </ul>
 
             </div>
@@ -262,24 +391,25 @@
                     <li>About</li>
                     <li>services</li>
                     <li>contact</li>
-                    
+
                 </ul>
 
             </div>
         </div>
         <div class="footer-rights">
-            www.sanskruti'sportfolio.com | All  rights reserved
+            copyright &#169;www.sanskruti'sportfolio.com | All rights reserved
         </div>
     </footer>
-    
+
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Front-end developer', 'Web Design','Web Developer','Java Developer','Video Editor'],
-          typeSpeed: 50,
+            strings: ['Front-end developer', 'Web Design', 'Web Developer', 'Java Developer', 'Video Editor'],
+            typeSpeed: 50,
         });
-      </script>
-    
+    </script>
+
 </body>
+
 </html>
