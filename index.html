@@ -2,414 +2,309 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanskruti-Developer portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanskruti-Developer portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  
 
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: 'poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-
-
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            color: rgb(134, 134, 239);
-            font-size: 1.01rem;
-        }
-
-        .left {
-            font-size: 1.5rem;
-
-        }
-
-        .firstsection {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 130px 0;
-
-        }
-
-        .firstsection>div {
-            width: 30%;
-        }
-
-        .leftsection {
-
-            width: 34px;
-            font-size: 2rem;
-
-        }
-
-       
-
-        .social {
-            margin: 0 auto;
-            width: auto;
-            text-align: inherit;
-            /* padding: 10px; */
-        }
-        .icon-btn {
-  margin-left: auto;
-  width: 50px;
-  height: 50px;
-  border: 0;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 30px;
-  line-height: 70px;
-  border-radius: 45px;
-  display: inline-block;
-  margin: 4px;
-}
-
-
-.github {
-  color: black;
- 
-}
-
-.linkedin {
-  color: #0077b5;
-}
-
-.angellist {
-  color: grey;
-}
-
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
-}
-
-.linkedin:hover {
-  background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
-}
-
-.github:hover {
-  background-color: black;
-}
-
-
-
-        .leftsection.button {
-            padding: 50px 0;
-        }
-
-        .leftsection .btn {
-
-            padding: 12px;
-            background: rgb(236, 212, 212);
-            color: #671e65;
-            border: 2px solid plum;
-            border-radius: 6px;
-            font-size: 20px;
-            cursor: pointer;
-
-
-        }
-
-        .rightsection img {
-
-            width: 80%;
-
-        }
-
-        .purple {
-            color: rgb(196, 144, 245);
-        }
-
-        .text-gray {
-            color: gray;
-        }
-
-        #element {
-            color: rgb(196, 144, 245);
-
-        }
-
-        .secoundsection {
-            max-width: 80vw;
-            margin: auto;
-            height: 80vh;
-        }
-
-        .secoundsection h1 {
-            font-size: 1.9rem;
-        }
-
-        .secoundsection .box {
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
-
-        .secoundsection .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 100px;
-        }
-
-        .image-top {
-            width: 23px;
-            position: relative;
-            top: -32px;
-            left: -9px;
-        }
-
-        .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
-
-        }
-
-        .vertical-desc {
-            position: relative;
-            top: 86px;
-            color: grey;
-            width: 150px;
-            font-size: 9px
-        }
-
-        .main hr {
-            border: 0;
-            background: rgb(127, 52, 247);
-            height: 1.2px;
-            width: 55px 84px;
-        }
-
-        footer {
-            background-color: rgb(49, 38, 49);
-
-        }
-
-        .flooter {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-
-        .flooter ul {
-            list-style: none;
-        }
-
-        .flooter>div {
-            width: 223px;
-        }
-
-        flooter .footer-rights {
-            text-align: center;
-            color: grey;
-            padding: 12px 0;
-
-
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left">Sanskruti's portfolio</div>
-            <div class="right">
-                <ul>
-                    <li> <a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="firstsection">
-            <div class="leftsection">
-                Hi,My name is <span class="purple">Sanskruti</span>
-                <div>and i am a passionate</div>
-                <div>Web Developer</div>
-                <span id="element"></span>
+  <header>
+    <nav>
+      <div class="left">Sanskruti's portfolio</div>
+      <div class="right">
+        <ul>
+          <li> <a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi,My name is <span class="purple">Sanskruti</span>
+        <div>and i am a passionate</div>
+        <div>Web Developer</div>
+        <span id="element"></span>
 
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/sanskruti-chavan-web-developer" target="_blank">
-                        <button class="icon-btn linkedin">
-                            <i class="fa fa-linkedin" style="font-size:25px"></i>
-                        </button>
-                    </a>
-                    <a href="https://github.com/SanskrutiDev" target="_blank">
-                        <button class="icon-btn github" >
-                           
-                            <i class="fa fa-github" style="font-size:48px"></i>
-                        </button>
-                    </a>
-                </div>
-                <div class="button">
-                    <button class="btn">
-                        <a aria-label="Open sanskruti's resume in a new tab" style="text-decoration:none" href="Sanskruti_Chavan-1.pdf"
-                            target="_blank" class="waves-effect waves-dark teal-text"><i
-                                class="mdi-file-folder-open small">Download Resume</i></a>
-                    </button>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/sanskruti-chavan-web-developer" target="_blank">
+            <button class="icon-btn linkedin">
+              <i class="fa fa-linkedin" style="font-size:25px"></i>
+            </button>
+          </a>
+          <a href="https://github.com/SanskrutiDev" target="_blank">
+            <button class="icon-btn github">
 
-                </div>
-
-            </div>
-            <div class="rightsection">
-                <img src="devpng.gif" alt="">
-            </div>
-
-
-
-        </section>
-
-        <hr>
-
-        <section class="secoundsection">
-            <span class="text-gray">what i have done so far</span>
-            <h1>work experience</h1>
-            <div class="box">
-                <div class="vertical">
-                    <img class="image-top" src="HTML.png" alt="">
-                    <div class="vertical-title">
-                        HTML Developer
-                        <div>(2021-2024)</div>
-
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
-                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
-                        facilis expedita. Ipsa, temporibus!
-                    </div>
-                </div>
-
-                <div class="vertical">
-                    <img class="image-top" src="javapng.jpg" alt="">
-                    <div class="vertical-title">
-                        Java Developer
-                        <div>(2021-2024)</div>
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
-                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
-                        facilis expedita. Ipsa, temporibus!
-                    </div>
-                </div>
-
-                <div class="vertical">
-                    <img class="image-top" src="webdevloper.jpeg" alt="">
-                    <div class="vertical-title">
-                        web Developer
-                        <div>(2021-2024)</div>
-
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
-                        eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
-                        facilis expedita. Ipsa, temporibus!
-                    </div>
-                </div>
-
-            </div>
-            </div>
-
-
-            </div>
-
-
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-frist">
-                <h3>Sanskruti's Developer portfolio</h3>
-            </div>
-            <div class="footer-secound">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>services</li>
-                    <li>contact</li>
-
-                </ul>
-
-            </div>
-            <div class="footer-third">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>services</li>
-                    <li>contact</li>
-
-                </ul>
-
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>services</li>
-                    <li>contact</li>
-
-                </ul>
-
-            </div>
+              <i class="fa fa-github" style="font-size:48px"></i>
+            </button>
+          </a>
         </div>
-        <div class="footer-rights">
-            copyright &#169;www.sanskruti'sportfolio.com | All rights reserved
+        <div class="button">
+          <button class="btn">
+            <a aria-label="Open sanskruti's resume in a new tab" style="text-decoration:none"
+              href="Sanskruti_Chavan-1.pdf" target="_blank" class="waves-effect waves-dark teal-text"><i
+                class="mdi-file-folder-open small">Download Resume</i></a>
+          </button>
+
         </div>
-    </footer>
+
+      </div>
+      <div class="rightsection">
+        <img src="devpng.gif" alt="">
+      </div>
 
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Front-end developer', 'Web Design', 'Web Developer', 'Java Developer', 'Video Editor'],
-            typeSpeed: 50,
-        });
-    </script>
+
+    </section>
+
+    <hr>
+
+    <section class="secoundsection">
+      <span class="text-gray">what i have done so far</span>
+      <h1>work experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="HTML.png" alt="">
+          <div class="vertical-title">
+            HTML Developer
+            <div>(2021-2024)</div>
+
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+            eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+            facilis expedita. Ipsa, temporibus!
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="javapng.jpg" alt="">
+          <div class="vertical-title">
+            Java Developer
+            <div>(2021-2024)</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+            eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+            facilis expedita. Ipsa, temporibus!
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="webdevloper.jpeg" alt="">
+          <div class="vertical-title">
+            web Developer
+            <div>(2021-2024)</div>
+
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione nam, ex, velit rerum
+            eveniet quisquam dolor consequatur dolorem quibusdam molestiae maiores et labore non tempore
+            facilis expedita. Ipsa, temporibus!
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+
+      </div>
+
+
+    </section>
+
+    <hr>
+
+
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-frist">
+        <h3>Sanskruti's Developer portfolio</h3>
+      </div>
+
+
+
+      <!-- Second Section: About -->
+      <section id="about" class="footer-secound">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+
+          <p>
+            I am a Computer Science Engineering Student at Sandipani Technical campus in Latur. I enjoy
+            problem-solving and coding. Always strive to bring 100% to the work I
+
+            I have worked on technologies like HTML, CSS,JavaScript, Java, C++ during my bachelor's.
+
+            I am passionate about developing complex applications that solve real-world problems
+            impacting millions of users.
+
+
+          </p>
+          <p>
+          <ul>
+            <li><b>Languages:</b> Java, HTML/CSS, C++,JavaScript,</li>
+            <li><b>Tools & Technologies:</b> Git</li>
+          </ul>
+
+          </p>
+
+
+          <p>
+            Looking for an opportunity to work in a challenging position combining my skills in Software
+            Engineering, which provides professional development, interesting experiences and personal
+            growth.
+          </p>
+        </div>
+
+      </section>
+
+      <hr>
+
+      <!-- Fourth Section: Projects -->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="car Animation" src="caranima.gif" style="height: 100%; width: 30%" class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">car Animation<i
+                      class="mdi-navigation-more-vert right"></i></span>
+                  <p>
+                    car Animation website based on HTML,CSS,JavaScript
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                  <span class="card-title grey-text"><small>Accomplishments</small><i
+                      class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><b>Tools:</b> HTML, CSS, JavaScript</li>
+                    <!-- <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
+                    <li>Search and filter songs based on language and singer.</li>
+                    <li>Create multiple playlists and add/remove songs to/from playlist.</li>
+                    <li>Scroll through recently played/viewed songs.</li>
+  
+   -->
+                  </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit " href="d:\car" target="_blank"
+                      data-position="top" data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-external-link"></i></a>
+                    <a aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/SanskrutiDev/Car-Project" target="_blank" data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="quiz app" src="artgally.gif" style="height: 100%; width: 30%"
+                    class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Art gallery<i
+                      class="mdi-navigation-more-vert right"></i></span>
+                  <p>
+                    Art gallery website based on HTML CSS JS
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                  <span class="card-title grey-text"><small>Accomplishments</small><i
+                      class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><b>Tools:</b> HTML, CSS, js</li>
+                    <li>Art gallery</li>
+
+                  </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit " href="https://Art gallery.herokuapp.com/" target="_blank" data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-external-link"></i></a>
+                    <a aria-label="Visit the GitHub repo for  project" href=""
+                      target="_blank" data-position="top" data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <section id="contact" class="section scrollspy full-height">
+              <h3 class="page-title white-text teal">Contact</h3>
+              <div class="container">
+                <p>
+                  <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-phone"></i><a aria-label="Call Varad">91+ 9420089272</a></a>
+                </p>
+                <p>
+                  <a aria-label="Email Varad" href="mailto:sanskrutichavan45@gmail.com" target="_blank"
+                    data-position="top" data-tooltip="Email Varad"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:sanskrutichavan45@gmail.com"
+                      class="hoverline">sanskrutichavan45@gmail.com</a></a>
+                </p>
+                <p>
+                  <a aria-label="View Varad on GitHub" href="https://github.com/SanskrutiDev" target="_blank"
+                    data-position="top" data-tooltip="View Varad on GitHub"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i><a aria-label="Varad on Github" href="https://github.com/SanskrutiDev"
+                      class="hoverline" target="_blank">github.com/SanskrutiDev</a></a>
+                </p>
+                <p>
+                  <a aria-label="View Varad on LinkedIn"
+                    href="https://www.linkedin.com/in/sanskruti-chavan-web-developer" target="_blank"
+                    data-position="top" data-tooltip="View Varad on LinkedIn"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-linkedin"></i><a aria-label="Varad on LinkedIn"
+                      href="https://www.linkedin.com/in/sanskruti-chavan-web-developer" class="hoverline"
+                      target="_blank">linkedin.com/in/sanskruti-chavan-web-developer</a></a>
+                </p>
+              </div>
+            </section>
+            <hr>
+
+
+            <div class="footer-rights">
+              copyright &#169;www.sanskruti'sportfolio.com | All rights reserved
+            </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-end developer', 'Web Design', 'Web Developer', 'Java Developer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
 
 </body>
 
