@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .contact-form {
+        flex: 1;
+        padding: 20px;
+        background-color: rgb(36, 36, 43);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(90, 88, 88, 0.5);
+        color: white;
+    }
+
+    .contact-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(250, 134, 254);
+    }
+
+    .contact-form p {
+        text-align: center;
+        margin-bottom: 20px;
+        color: grey;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 2px solid rgb(61, 54, 61);
+        border-radius: 5px;
+        background-color: rgb(85, 85, 102);
+        color: white;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        border-color: rgb(134, 134, 239);
+        outline: none;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 12px 20px;
+        background-color: rgb(210, 74, 201);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+        background-color: rgb(155, 98, 147);
+    }
+
+    .image {
+        flex: 1;
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body style="background-color: black;">
+
+<div class="container">
+    <div class="image">
+        <img src="gifg.gif" alt="Image">
+    </div>
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <p>If you have any questions, feel free to reach out to me!</p>
+
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
