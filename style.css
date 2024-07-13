@@ -211,31 +211,11 @@ background-color: black;
 }
 
 footer {
-    background-color: rgb(49, 38, 49);
+    background-color: rgb(77, 67, 77);
 
 }
 
-.flooter {
-    display: flex;
-    padding: 23px 122px;
-    justify-content: space-evenly;
-}
 
-.flooter ul {
-    list-style: none;
-}
-
-.flooter>div {
-    width: 223px;
-}
-
-flooter .footer-rights {
-    text-align: center;
-    color: grey;
-    padding: 12px 0;
-
-
-}
 .section {
     padding-bottom: 30px;
     padding-top: 0;
@@ -245,9 +225,7 @@ flooter .footer-rights {
   .full-height {
     height: 100vh;
   }
- .footer-frist.h3{
-    color: plum;
- }
+ 
   
   
  
@@ -640,6 +618,62 @@ flooter .footer-rights {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.btn-project{
+  display: inline-flex;
+  background-color: rgb(236, 130, 236);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-family: sans-serif;
+  border-radius: 4rem;
+  transition: box-shadow .4s;
+  margin-left: 45%;
+  margin-bottom: 20px;
+  
+}
+.btn-project a{
+  text-decoration-line: none;
+}
+.btn-project:hover{
+  box-shadow: 0.8px 24px hsla(22, 100%, 8%, .2);
+}
+
+
+
+.footer-rights {
+  text-align: center;
+  color: grey;
+  padding: 12px 0;
+  border-radius: 50px;
+  align-items: center;
+  
+
+
+}
+.footer{
+  padding: 30px 40px;
+}
+.footer-container{
+  row-gap: 2rem;
+}
+.footer-logo{
+  text-decoration-line: none;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: rgb(244, 184, 244);
+  justify-self: center;
+}
+
+.footer-link{
+  color: rgb(255, 255, 255);
+
+}
+
+.footer-copy{
+  display: block;
+  text-align-last: center;
+  
+  margin-top: 3rem;
+}
 @media (max-width: 768px) {
     .about-col-1,
     .about-col-2 {
